@@ -1,0 +1,306 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500;800&display=swap");
+
+p {
+  margin: 0;
+}
+
+
+.flex-col-hstart-vstart {
+  display: flex;
+
+  justify-content:space-evenly;
+  align-items: center;
+  flex-wrap: wrap;
+}
+/* .main_header{
+ margin: 50px;
+ display: flex;
+ 
+ justify-content: center;
+ padding: 0 50px;
+
+} */
+.main_header{
+  /* margin: 50px; */
+
+  display: flex;
+  
+  justify-content: space-around;
+  
+  padding: 50px 50px;
+ 
+ }
+
+.main_header_img{
+ width: 100%;
+
+}
+@media(max-width:767px) {
+
+  .main_header_img{
+      max-width:100%;
+      height:auto
+  }
+
+}
+.flex-row {
+  display: flex;
+
+  flex-direction: row;
+}
+
+.flex-hcenter {
+  justify-content: center;
+}
+
+.flex-row-vstart-hstart {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.nav {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 70px;
+  
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding:0px 10%;
+
+
+}
+
+
+.logo_head{
+  display: flex;
+
+
+  width: 300px;
+}
+
+.group-2610 {
+  display: flex;
+
+  width:30%
+
+}
+
+.logo-bgremove {
+  width: 50px;
+  height: 50px;
+  margin-right: 13px;
+  animation: rotation 2s infinite linear;
+}
+.main_header{
+  display: flex;
+
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 1rem;
+
+}
+.event-logo {
+  position: relative;
+  margin-right: 625px;
+  box-sizing: border-box;
+  width: 100%;
+  height: 50%;
+}
+
+.txt-297 {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  font-size: 32px;
+  font-family: Montserrat, sans-serif;
+  font-weight: 800;
+  letter-spacing: 1.5px;
+  color: rgba(60, 60, 60, 1);
+  text-align: center;
+  width: 191px;
+  height: 43px;
+  word-wrap: break-word;
+}
+.sidenav-1{
+  font-size: 32px;
+  font-family: Montserrat, sans-serif;
+  font-weight: 800;
+  letter-spacing: 1.5px;
+  color: rgba(60, 60, 60, 1);
+  text-align: center;
+  height: 43px;
+  word-wrap: break-word;
+}
+
+.txt-297::before{
+  content: " ";
+  position: absolute;
+  z-index: -1;
+  bottom: 1px;
+  width: 100%;
+  height: 15px;
+  border-radius: 5px;
+ transform: skewX(30deg);
+
+  background-color: rgb(4, 167, 255);
+  opacity: 0.6;
+
+}
+
+.txt-384 {
+  position: absolute;
+  top: 34px;
+  left: 20px;
+  font-size: 16px;
+  font-family: Montserrat, sans-serif;
+  font-weight: 800;
+  color: rgba(60, 60, 60, 1);
+  text-align: center;
+  width: 151px;
+  height: 17px;
+  word-wrap: break-word;
+}
+
+.sidenav-2 {
+  font-size: 16px;
+  font-family: Montserrat, sans-serif;
+  font-weight: 800;
+  color: rgba(60, 60, 60, 1);
+  text-align: center;
+  width: 151px;
+  height: 17px;
+  word-wrap: break-word;
+}
+.nav-item {
+  padding: 9px;
+  margin-right: 24px;
+  box-sizing: border-box;
+  height: fit-content;
+
+}
+.nav-item:hover::before{
+   content: "";
+   position: absolute;
+   bottom: 15px;
+   width: 3.3rem;
+   border-radius: 3px;
+   height: 4px;
+   background-color: rgb(4, 167, 255);
+
+
+   animation: go 0.75s ease 0s 1 normal forwards;
+}
+ @keyframes go{
+  from{
+    width: 0;
+  }to{
+    width: 3.3rem;
+  }
+ }
+
+.txt-453 {
+  font-size: 16px;
+  font-family: Montserrat, sans-serif;
+  font-weight: 500;
+  color: rgba(0, 0, 0, 1);
+  text-align: center;
+  word-wrap: break-word;
+}
+
+.nav-item-1 {
+  padding: 9px;
+  margin-right: 24px;
+  box-sizing: border-box;
+  height: fit-content;
+}
+
+.txt-453 {
+  font-size: 16px;
+  font-family: Montserrat, sans-serif;
+  font-weight: 500;
+
+  color: rgba(0, 0, 0, 1);
+  text-align: center;
+  word-wrap: break-word;
+}
+
+.nav-item-2 {
+    padding: 9px;
+    box-sizing: border-box;
+    height: fit-content;
+}
+
+.txt-453 {
+  font-size: 16px;
+  font-family: Montserrat, sans-serif;
+  font-weight: 500;
+  color: rgba(0, 0, 0, 1);
+  text-align: center;
+  word-wrap: break-word;
+}
+.nav_links{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    
+}
+.header{
+
+    position: relative; 
+    height: 100vh;
+    width: 100%;
+
+
+    
+    /* background-image: url('../Assets/WhatsApp\ Image\ 2022-09-17\ at\ 11.27.35\ AM\ \(1\).jpeg'); */
+    background-size: cover;
+
+}
+
+.bg_img{
+    position:fixed;
+    display: block;
+    top: 0;
+    left: 0;
+    right: 0;
+
+    object-fit: cover;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    height: 100%;
+    opacity: 0.06;
+    z-index: -1;
+
+}
+
+.menu_icon{
+
+ display: none;
+
+
+}
+
+@keyframes rotation {
+  from{
+    transform: rotate(0);
+  }
+  to{
+    transform: rotate(359deg);
+  }
+}
+@media screen and (max-width: 720px) {
+  
+   .flex-col-hstart-vstart{
+    justify-content: space-between;
+
+   }
+  .menu_icon{
+     display: block;
+  }
+}
